@@ -47,7 +47,7 @@ if (hasNavigator) {
 
 const loadImage = (url) => new Promise((resolve, reject) => {
     const img = new Image();
-    img.crossOrigin = 'Anonymous';
+//    img.crossOrigin = 'Anonymous';
     img.onload = () => {
         resolve(img);
     };

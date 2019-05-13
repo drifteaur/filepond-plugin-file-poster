@@ -223,7 +223,7 @@
   var loadImage = function loadImage(url) {
     return new Promise(function(resolve, reject) {
       var img = new Image();
-      img.crossOrigin = 'Anonymous';
+      //    img.crossOrigin = 'Anonymous';
       img.onload = function() {
         resolve(img);
       };
